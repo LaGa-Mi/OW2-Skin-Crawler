@@ -2,7 +2,6 @@ import sys
 import os
 import requests
 from bs4 import BeautifulSoup
-import string
 
 def checkRarity(minimum_rarity):
     rarities = ["common", "rare", "epic", "legendary"]
